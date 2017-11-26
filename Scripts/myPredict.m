@@ -6,6 +6,9 @@ function [prediction]=myPredict(matrix,net,N)
 
 for i=1:lines
     if isnan(matrix(i,1))
+    
+        linha=[matrix(i,2), matrix(i,3), matrix(i,4) ...
+             matrix(i-1*24,1),matrix(i-7*24,1)];
      
         matrix(i,1) = net(transpose(linha));
         
