@@ -1,3 +1,8 @@
+%% importData 
+%This script imports the Data present in the DadosTPRE2 file witch contains
+%the inictial data suplied by the professor without any alterations. 
+
+
 %Data from excel - cronological variables 
 disp('Importing data ...')
 Month = xlsread('DadosTPRE2', 'A3:A16706'); disp('Month imported (1/17)');
