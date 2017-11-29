@@ -1,37 +1,23 @@
-
-figure;
-scatter(Month, Nuc);
+drawcorrelation(Month, Nuc,1);
 title('Nuclear vs Month');
 
-figure;
-scatter(Week, Nuc);
+drawcorrelation(Week, Nuc,1);
 title('Nuclear vs Week');
 
-figure;
-scatter(Hour, Nuc);
+drawcorrelation(Hour, Nuc,1);
 title('Nuclear vs Hour');
 
-figure;
-scatter(Temp, Nuc);
+drawcorrelation(Temp, Nuc,1);
 title('Nuclear vs Temperature');
 
-figure;
-scatter(Wind, Nuc);
+drawcorrelation(Wind, Nuc,1);
 title('Nuclear vs Wind');
 
-figure;
-scatter(WindDirc, Nuc);
+drawcorrelation(WindDirc, Nuc,1);
 title('Nuclear vs WindDirection');
 
-figure;
-scatter(Irradiance, Nuc);
+drawcorrelation(Irradiance, Nuc,1);
 title('Nuclear vs Irradiance');
 
-figure;
-scatter(Rainfall, Nuc);
+drawcorrelation(Rainfall, Nuc,1);
 title('Nuclear vs Rain');
-
-
-
-
-
