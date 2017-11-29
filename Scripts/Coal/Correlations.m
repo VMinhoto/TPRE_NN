@@ -1,34 +1,25 @@
-
-figure;
-scatter(Month, Coal);
+drawcorrelation(Month, Coal,1);
 title('Coal vs Month');
 
-figure;
-scatter(Week, Coal);
+drawcorrelation(Week, Coal,1);
 title('Coal vs Week');
 
-figure;
-scatter(Hour, Coal);
+drawcorrelation(Hour, Coal,1);
 title('Coal vs Hour');
 
-figure;
-scatter(Temp, Coal);
+drawcorrelation(Temp, Coal,1);
 title('Coal vs Temperature');
 
-figure;
-scatter(Wind, Coal);
+drawcorrelation(Wind, Coal,1);
 title('Coal vs Wind');
 
-figure;
-scatter(WindDirc, Coal);
+drawcorrelation(WindDirc, Coal,1);
 title('Coal vs WindDirection');
 
-figure;
-scatter(Irradiance, Coal);
+drawcorrelation(Irradiance, Coal,1);
 title('Coal vs Irradiance');
 
-figure;
-scatter(Rainfall, Coal);
+drawcorrelation(Rainfall, Coal,1);
 title('Coal vs Rain');
 
 
