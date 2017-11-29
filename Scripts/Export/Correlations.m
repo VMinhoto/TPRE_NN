@@ -1,37 +1,23 @@
-
-figure;
-scatter(Month, Export);
+drawcorrelation(Month, Export,1);
 title('Exportation vs Month');
 
-figure;
-scatter(Week, Export);
+drawcorrelation(Week, Export,1);
 title('Exportation vs Week');
 
-figure;
-scatter(Hour, Export);
+drawcorrelation(Hour, Export,1);
 title('Exportation vs Hour');
 
-figure;
-scatter(Temp, Export);
+drawcorrelation(Temp, Export,1);
 title('Exportation vs Temperature');
 
-figure;
-scatter(Wind, Export);
+drawcorrelation(Wind, Export,1);
 title('Exportation vs Wind');
 
-figure;
-scatter(WindDirc, Export);
+drawcorrelation(WindDirc, Export,1);
 title('Exportation vs WindDirection');
 
-figure;
-scatter(Irradiance, Export);
+drawcorrelation(Irradiance, Export,1);
 title('Exportation vs Irradiance');
 
-figure;
-scatter(Rainfall, Export);
+drawcorrelation(Rainfall, Export,1);
 title('Exportation vs Rain');
-
-
-
-
-
