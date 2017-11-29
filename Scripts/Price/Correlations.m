@@ -1,37 +1,26 @@
-
-figure;
-scatter(Month, Price);
+drawcorrelation(Month, Price,1);
 title('Price vs Month');
 
-figure;
-scatter(Week, Price);
+drawcorrelation(Week, Price,1);
 title('Price vs Week');
 
-figure;
-scatter(Hour, Price);
+drawcorrelation(Hour, Price,1);
 title('Price vs Hour');
 
-figure;
-scatter(Temp, Price);
+drawcorrelation(Temp, Price,1);
 title('Price vs Temperature');
 
-figure;
-scatter(Wind, Price);
+drawcorrelation(Wind, Price,1);
 title('Price vs Wind');
 
-figure;
-scatter(WindDirc, Price);
+drawcorrelation(WindDirc, Price,1);
 title('Price vs WindDirection');
 
-figure;
-scatter(Irradiance, Price);
+drawcorrelation(Irradiance, Price,1);
 title('Price vs Irradiance');
 
-figure;
-scatter(Rainfall, Price);
+drawcorrelation(Rainfall, Price,1);
 title('Price vs Rain');
-
-
 
 
 
