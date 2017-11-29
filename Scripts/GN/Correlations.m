@@ -1,36 +1,26 @@
-
-figure;
-scatter(Month, GN);
+drawcorrelation(Month, GN,1);
 title('Natural Gas vs Month');
 
-figure;
-scatter(Week, GN);
+drawcorrelation(Week, GN,1);
 title('Natural Gas vs Week');
 
-figure;
-scatter(Hour, GN);
+drawcorrelation(Hour, GN,1);
 title('Natural Gas vs Hour');
 
-figure;
-scatter(Temp, GN);
+drawcorrelation(Temp, GN,1);
 title('Natural Gas vs Temperature');
 
-figure;
-scatter(Wind, GN);
+drawcorrelation(Wind, GN,1);
 title('Natural Gas vs Wind');
 
-figure;
-scatter(WindDirc, GN);
+drawcorrelation(WindDirc, GN,1);
 title('Natural Gas vs WindDirection');
 
-figure;
-scatter(Irradiance, GN);
+drawcorrelation(Irradiance, GN,1);
 title('Natural Gas vs Irradiance');
 
-figure;
-scatter(Rainfall, GN);
+drawcorrelation(Rainfall, GN,1);
 title('Natural Gas vs Rain');
-
 
 
 
