@@ -1,34 +1,25 @@
-
-figure;
-scatter(Month, Hydro);
+drawcorrelation(Month, Hydro,1);
 title('Hydro vs Month');
 
-figure;
-scatter(Week, Hydro);
+drawcorrelation(Week, Hydro,1);
 title('Hydro vs Week');
 
-figure;
-scatter(Hour, Hydro);
+drawcorrelation(Hour, Hydro,1);
 title('Hydro vs Hour');
 
-figure;
-scatter(Temp, Hydro);
+drawcorrelation(Temp, Hydro,1);
 title('Hydro vs Temperature');
 
-figure;
-scatter(Wind, Hydro);
+drawcorrelation(Wind, Hydro,1);
 title('Hydro vs Wind');
 
-figure;
-scatter(WindDirc, Hydro);
+drawcorrelation(WindDirc, Hydro,1);
 title('Hydro vs WindDirection');
 
-figure;
-scatter(Irradiance, Hydro);
+drawcorrelation(Irradiance, Hydro,1);
 title('Hydro vs Irradiance');
 
-figure;
-scatter(Rainfall, Hydro);
+drawcorrelation(Rainfall, Hydro,1);
 title('Hydro vs Rain');
 
 
