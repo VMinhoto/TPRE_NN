@@ -1,37 +1,33 @@
 
 figure;
-scatter(Month, CG_Solar);
+drawcorrelation(Month, CG_Solar,1);
 title('CG_Solar vs Month');
 
 figure;
-scatter(Week, CG_Solar);
+drawcorrelation(Week, CG_Solar,1);
 title('CG_Solar vs Week');
 
 figure;
-scatter(Hour, CG_Solar);
+drawcorrelation(Hour, CG_Solar,1);
 title('CG_Solar vs Hour');
 
 figure;
-scatter(Temp, CG_Solar);
+drawcorrelation(Temp, CG_Solar,1);
 title('CG_Solar vs Temperature');
 
 figure;
-scatter(Wind, CG_Solar);
+drawcorrelation(Wind, CG_Solar,1);
 title('CG_Solar vs Wind');
 
 figure;
-scatter(WindDirc, CG_Solar);
+drawcorrelation(WindDirc, CG_Solar,1);
 title('CG_Solar vs WindDirection');
 
 figure;
-scatter(Irradiance, CG_Solar);
+drawcorrelation(Irradiance, CG_Solar,1);
 title('CG_Solar vs Irradiance');
 
 figure;
-scatter(Rainfall, CG_Solar);
+drawcorrelation(Rainfall, CG_Solar,1);
 title('CG_Solar vs Rain');
-
-
-
-
 
