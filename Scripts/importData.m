@@ -1,6 +1,6 @@
 %% importData 
-%This script imports the Data present in the DadosTPRE2 file witch contains
-%the inictial data suplied by the professor without any alterations. 
+%This script imports the Data present in the DadosTPRE2 file which contains
+%the initial data supplied by the professor without any alterations. 
 
 
 %Data from excel - cronological variables 
