@@ -1,3 +1,6 @@
+%%removeGaps
+%This function removes all gaps from the matrix previusly created by finding the NaN value
+
 function [matrixout]=removeGaps(matrixin)
 matrixout=matrixin;
 [l,c]=size(matrixout);
