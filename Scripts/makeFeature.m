@@ -1,3 +1,6 @@
+%%makeFeature
+%This function creates new input vectors with the desired delay in days. 
+
 function [feature,N]=makeFeature(lacunas,N);
     N=N*24;
     CounterBehind=N;
