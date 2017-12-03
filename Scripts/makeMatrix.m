@@ -1,3 +1,6 @@
+%%makeMatrix
+%This function creats a matrix containg all of the input and target vectors. 
+
 function [matrix]=makeMAtrix(varargin)
 
 a=nargin;
